@@ -14,10 +14,6 @@ if($data){
 	$name=$data->name;
 	$email=$data->email;
 	
-	/*	$id=9;
-	$name="bittuSingh";
-	$email="bittu";
-*/
 	$query="update users set user_name='$name', user_email='$email' where id='$id'";
 
 	if(mysqli_query($con, $query)){
